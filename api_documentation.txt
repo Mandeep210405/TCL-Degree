@@ -1,0 +1,23 @@
+AllVaxConnect API Documentation
+============================
+
+Base URL: http://localhost:3000
+
+
+4. Vaccination Management
+-----------------------
+
+4.4. Get Vaccine Suggestions
+Endpoint: GET /user/vaccine-suggestions
+Response:
+[
+    {
+        "id": string,
+        "vaccineName": string,
+        "familyMember": string,
+        "recommendedDate": string,
+        "reason": string
+    }
+]
+
+

@@ -1,0 +1,16 @@
+@keyframes loading-line {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-loading-line {
+  animation: loading-line 2s infinite;
+  width: 100%;
+}
